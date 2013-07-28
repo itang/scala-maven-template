@@ -1,7 +1,9 @@
-package test
+package example
 
-object TryTest {
-  implicit def anyToP(t: Any) = new {
+import language._
+
+object Main {
+  implicit class AnyPowable(t: Any) {
     def printf() = println(t)
   }
 

@@ -1,8 +1,10 @@
-package test;
+package example;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import example.Echo;
 
 public class EchoTest {
 
