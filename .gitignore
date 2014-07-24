@@ -11,4 +11,7 @@
 .classpath
 .cache
 
+.idea
+*.iml
+
 /target
